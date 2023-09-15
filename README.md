@@ -4,9 +4,10 @@
 
 ## Table of Content
 
-- [Table of Content](#table-of-content)
+- [Introduction](#introduction)
 - [IDE Reminders](#ide-reminders)
 - [Dataset Content](#dataset-content)
+- [CRISP-DM](#crisp-dm)
 - [Business Requirements](#business-requirements)
 - [Hypothesis and how to validate?](#hypothesis-and-how-to-validate)
 - [The rationale to map the business requirements to the Data Visualizations and ML tasks](#the-rationale-to-map-the-business-requirements-to-the-data-visualizations-and-ml-tasks)
@@ -23,6 +24,13 @@
 
 **Developed by: Michelle Mattera**
 
+## Introduction
+
+This machine learning project was developed for the fifth portfolio project during the Code Insititute's Diploma in Full Stack Development. It covers the Predictive Analytics specialization.
+
+The machine and data analysis was created from the [Beer profile and ratings data set](https://www.kaggle.com/datasets/ruthgn/beer-profile-and-ratings-data-set). The purpose of this machine learning project was to allow the user to predict the rating of a new beer based on a combination of features. In addiction it shows to the user how these features correlate with the final rating.
+
+
 ## IDE Reminders
 
 To log into the Heroku toolbelt CLI:
@@ -37,11 +45,29 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size and to have a shorter model training time. If you are doing an image recognition project, we suggest you consider using an image shape that is 100px × 100px or 50px × 50px, to ensure the model meets the performance requirement but is smaller than 100Mb for a smoother push to GitHub. A reasonably sized image set is ~5000 images, but you can choose ~10000 lines for numeric or textual data. 
+
+The dataset is sourse from [Kaggle](https://www.kaggle.com) 
+
+## CRISP-DM
+
+This project was developed using the Cross Industry Standard Process for Data Mining. Developer choose to divide the steps following an agile method and dividing the steps in Epics.
+
+1. Epic 1: Business Understanding - This incorporates understanding the clients business case, usually through a conversation with the client where it is establish the business case and decide together the acceptance criteria.
+2. Epic 2: Data Understanding - The data needed to achieve the business requirements must be identified and understood. After data collection the data needs to be find, cleaned and checked if with the data is possible to solve or use for the business requirements discuss above.
+3. Epic 3: Data Preparation - .
+4. Epic 4: Modelling - .
+5. Epic 5: Evaluation - .
+6. Epic 6: Deployment - Develop the streamlit app that will satisfy the business requirements determined in collaboration with the client and deploy the app online. The app is deployed in Heroku and the process is described in the Deployment section below.
+
 
 
 ## Business Requirements
-* Describe your business requirements
+
+The client is a new Beer Company where is trying to create new beers . The client would like to investigate and predict which type of beer would have good reviews ,so in which to invest and create. The company is trying to understand which features has better review and which mix of features would produce a good beer = meaning a beer with good review.
+The business requirements were discussed with the client .
+
+1 - The client is interested in understanding the patterns from the beer reviews features.
+2 - The client is interested in determining whether or not a new beer would have good reviews or not. If so, the client is interested to know why. To know which features and which combination of features would predict a good review and so a good result.
 
 
 ## Hypothesis and how to validate?
