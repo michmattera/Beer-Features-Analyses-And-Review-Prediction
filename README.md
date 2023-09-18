@@ -14,6 +14,11 @@
 - [The rationale to map the business requirements to the Data Visualizations and ML tasks](#the-rationale-to-map-the-business-requirements-to-the-data-visualizations-and-ml-tasks)
 - [ML Business Case](#ml-business-case)
 - [Dashboard Design](#dashboard-design)
+  - [Page 1: Quick project summary](#page-1-quick-project-summary)
+  - [Page 2: Review Analysis Summary](#page-2-review-analysis-summary)
+  - [Page 3: Review Prediction](#page-3-review-prediction)
+  - [Page 4: Hypothesis ad validation](#page-4-hypothesis-ad-validation)
+  - [Page 5: Information on ML used](#page-5-information-on-ml-used)
 - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
   - [Heroku](#heroku)
@@ -67,7 +72,7 @@ This project was developed using the Cross Industry Standard Process for Data Mi
 The client is a new Beer Company where is trying to create new beers . The client would like to investigate and predict which type of beer would have good reviews ,so in which to invest and create. The company is trying to understand which features has better review and which mix of features would produce a good beer = meaning a beer with good review.
 The business requirements were discussed with the client .
 
-1.  The client is interested in understanding the patterns from the beer reviews features.
+1.   The client is interested in understanding the patterns from the beer review database so that the client can learn the most relevant variables correlated to a positive review.
 2.  The client is interested in determining if a new beer would have good reviews or not. If so, the client is interested to know why. To know which features and which combination of features would predict a good review and so a good result.
 
 
@@ -84,9 +89,42 @@ The business requirements were discussed with the client .
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
 
+### Page 1: Quick project summary
+* Quick project summary
+    * Small beer picture
+	* Project Terms & Jargon
+	* Describe Project Dataset
+	* State Business Requirements
+
+### Page 2: Review Analysis Summary
+* After data analysis, we agreed with stakeholders that the page will: 
+	* State business requirement 1
+	* Data inspection on the first 10 rows of the dataset used
+	* Display the most correlated variables to overall_review and the conclusions
+	* Checkbox: Showing first correlation study
+	* Checkbox: Showing second correlation study
+
+### Page 3: Review Prediction
+* The third page will display the second business requirement
+	* State business requirement 2
+	* Inputs with most important features
+	* Each input can be modified to have different result
+	* Button where client can predict the overall review based on the inputs
+	* After cliking the predict button , the ml pipeline will use that set of inputs to predict the overall review of that beer. The client will have display the result, if is going to have a good review or not and the pereentual.
+  
+### Page 4: Hypothesis ad validation
+* The fourth page will have display all the hypothesis and validation for the entire project
+	* State hypothesis
+	* State validation
+  
+  
+### Page 5: Information on ML used
+* The fifth page will display the following:
+	* Which model was used 
+	* Description of the ML pipeline
+	* Demonstration of features importance
+	* Performance overview
 
 
 ## Unfixed Bugs
