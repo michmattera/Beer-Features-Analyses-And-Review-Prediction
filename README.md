@@ -4,6 +4,7 @@
 
 ## Table of Content
 
+- [Table of Content](#table-of-content)
 - [Introduction](#introduction)
 - [IDE Reminders](#ide-reminders)
 - [Dataset Content](#dataset-content)
@@ -66,8 +67,8 @@ This project was developed using the Cross Industry Standard Process for Data Mi
 The client is a new Beer Company where is trying to create new beers . The client would like to investigate and predict which type of beer would have good reviews ,so in which to invest and create. The company is trying to understand which features has better review and which mix of features would produce a good beer = meaning a beer with good review.
 The business requirements were discussed with the client .
 
-1 - The client is interested in understanding the patterns from the beer reviews features.
-2 - The client is interested in determining whether or not a new beer would have good reviews or not. If so, the client is interested to know why. To know which features and which combination of features would predict a good review and so a good result.
+1.  The client is interested in understanding the patterns from the beer reviews features.
+2.  The client is interested in determining if a new beer would have good reviews or not. If so, the client is interested to know why. To know which features and which combination of features would predict a good review and so a good result.
 
 
 ## Hypothesis and how to validate?
